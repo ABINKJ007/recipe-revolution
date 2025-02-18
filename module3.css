@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+body {
+    font-family: 'Poppins', sans-serif;
+    background: url('https://source.unsplash.com/1600x900/?food,dessert') no-repeat center center/cover;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 500px;
+    background: rgba(255, 182, 193, 0.9); /* Light pink transparent */
+    padding: 30px;
+    margin: 100px auto;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #ff4081; /* Bright pink */
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+p {
+    color: #fff;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.input-group {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+input {
+    padding: 12px;
+    width: 65%;
+    border: 2px solid #ff4081;
+    border-radius: 5px;
+    outline: none;
+    font-size: 14px;
+}
+button {
+    padding: 12px;
+    background: #ff4081;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #e91e63;
+}
+
+#result {
+    margin-top: 20px;
+    padding: 10px;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#qrcode {
+    margin-top: 20px;
+    display: block;
+}
+
+#generateQR {
+    margin-top: 10px;
+    padding: 10px;
+    background: #ff4081;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 14px;
+}
+#generateQR:hover {
+    background: #e91e63;
+}
