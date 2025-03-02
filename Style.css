@@ -10,7 +10,7 @@ body {
 .container {
     width: 90%;
     max-width: 500px;
-    background: rgba(255, 182, 193, 0.9); /* Light pink transparent */
+    background: rgba(172, 18, 146, 0.9); /* Light pink transparent */
     padding: 30px;
     margin: 100px auto;
     border-radius: 10px;
